@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="primary">#94e695</color>
+    <color name="appbar">#656DFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nav">#D0D5FF</color>
+</resources>

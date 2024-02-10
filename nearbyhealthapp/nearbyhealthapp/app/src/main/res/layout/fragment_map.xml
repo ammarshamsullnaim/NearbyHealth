@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapFragment">
+
+    <!-- TextView to show "Map fragment" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="LOCATION"
+        android:textColor="#000000"
+        android:textSize="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="292dp"
+        android:src="@drawable/hospital" />
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/appbar"
+        android:text="Maps"
+        android:textColor="#FFFFFF" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/copyright7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text=" © 2023 NearbyHealth Coorperation "
+        android:textAlignment="center"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/copyright8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="All rights reserved"
+        android:textAlignment="center"
+        android:textSize="13sp" />
+
+</LinearLayout>

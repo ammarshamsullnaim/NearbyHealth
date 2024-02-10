@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutPage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/appbar"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/bottomNavigationView">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="ABOUT US"
+            android:textAlignment="center"
+            android:textColor="#656565"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="COLLEGE OF COMPUTING, INFORMATICS AND MATHEMATICS   UNIVERSITI TEKNOLOGI MARA PERLIS "
+            android:textAlignment="center"
+            android:textColor="#656565"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="GROUP: RCS2405A | SUBJECT: ICT602"
+            android:textAlignment="center"
+            android:textColor="#656565"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewLinkk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/link"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="TEAM MEMBERS"
+            android:textAlignment="center"
+            android:textColor="#656565"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="MUHAMMAD AMMAR BIN SHAMSULL NAIM  | 2021812554 | PROJECT MANAGER"
+            android:textAlignment="center"
+            android:textColor="#797979"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="MUHAMMAD AFIQ AIZZAT BIN AZMAN | 2021602998 | MOBILE APP DEVELOPER"
+            android:textAlignment="center"
+            android:textColor="#797979"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="MUHAMMAD HAZNOR HAQIFF BIN HAMAM | 2021470806  | WEBSITE DEVELOPER"
+            android:textAlignment="center"
+            android:textColor="#797979"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="MUHAMMAD ARIFF AMRI BIN MD ZAINI | 2021609612 | FULL-STACK DEVELOPER"
+            android:textAlignment="center"
+            android:textColor="#797979"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="NUR AZMATUN FARWIZAH BINTI FARID | 2021829744 | UX/UI DESIGNER"
+            android:textAlignment="center"
+            android:textColor="#797979"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text=" © 2023 NearbyHealth Coorperation "
+            android:textAlignment="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/copyright2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="All rights reserved"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+</ScrollView>
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottomNavigationView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/nav"
+    app:menu="@menu/bottom_nav" />
+
+</RelativeLayout>

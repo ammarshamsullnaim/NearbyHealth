@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapFragment">
+
+    <!-- TextView to show "Map fragment" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="PROFILE"
+        android:textColor="#000000"
+        android:textSize="26dp" />
+
+    <!-- Button to navigate to MapsActivity -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:src="@drawable/profile" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <TextView
+        android:id="@+id/textViewfullName"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textColor="#2D2D2D" />
+
+    <TextView
+        android:id="@+id/textViewEmail2"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#2D2D2D"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewContact"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:textColor="#2D2D2D" />
+
+    <TextView
+        android:id="@+id/textViewDevice"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:textColor="#2D2D2D" />
+
+    <TextView
+        android:id="@+id/textViewLatitude2"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:textColor="#2D2D2D" />
+
+    <TextView
+        android:id="@+id/textViewLongitude2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="#2D2D2D" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/appbar"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <TextView
+        android:id="@+id/copyright9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text=" © 2023 NearbyHealth Coorperation "
+        android:textAlignment="center"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/copyright10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="All rights reserved"
+        android:textAlignment="center"
+        android:textSize="13sp" />
+
+</LinearLayout>
